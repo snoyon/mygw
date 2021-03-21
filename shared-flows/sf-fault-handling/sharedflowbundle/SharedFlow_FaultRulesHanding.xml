@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="1" name="SharedFlow_FaultRulesHanding">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1615998464818</CreatedAt>
+    <CreatedBy>snoyon@hotmail.com</CreatedBy>
+    <Description>Shared method for handling faults</Description>
+    <DisplayName>SharedFlow_FaultRulesHanding</DisplayName>
+    <LastModifiedAt>1615998464818</LastModifiedAt>
+    <LastModifiedBy>snoyon@hotmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:4dcc19a8710d75342474e56f44bc35dd3171ade1069110effa7e12118abcfc81d8126a4750ec00ea3e7a97e3a8e3f6b2dc234afff09e6168c6bbfc7db6f879d8</ManifestVersion>
+    <Policies>
+        <Policy>AssignMessage.Set400ErrorVariables</Policy>
+        <Policy>AssignMessage.Set401ErrorVariables</Policy>
+        <Policy>AssignMessage.Set404ErrorVariables</Policy>
+        <Policy>AssignMessage.Set429ErrorVariables</Policy>
+        <Policy>AssignMessage.Set500ErrorVariables</Policy>
+        <Policy>AssignMessage.SetDefaultErrorResponse</Policy>
+        <Policy>JavaScriptDebugVariables</Policy>
+        <Policy>RaiseFault.DefaultDetailedErrorResponse</Policy>
+        <Policy>RaiseFault.DefaultErrorResponse</Policy>
+    </Policies>
+    <Resources>
+        <Resource>jsc://JavaScript.DebugVariables.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AssignMessage.Set400ErrorVariables" version="SHA-512:1b2d950985419cb8b6d235ca2e1d0b8daa9820bc79cd1509c042abe78d2c077801a9f675895146344bfd6bdf8d9a9b00b00c31966e1373cef2d512bb0fe75654"/>
+        <VersionInfo resourceName="AssignMessage.Set401ErrorVariables" version="SHA-512:6e35d2810a2f247ca16ce2aed790dc98daf068282627a60e0fb2184e98717c6ff49b154db31d443c21fe38f07741884f369ef6954c1b300ab3ed2e9b42358d3b"/>
+        <VersionInfo resourceName="AssignMessage.Set404ErrorVariables" version="SHA-512:e7e48076e7565a69ca0f8f15cff494c5de781386a1aeec7702a972fddb4c91009b3357c3c5cd4fa1364e38c62b5740bb605b7c449c3a55b7300f0a6191573f7a"/>
+        <VersionInfo resourceName="AssignMessage.Set429ErrorVariables" version="SHA-512:030f9a8dd1c2813787587050f9caf3b2b0e94c632b4c516f0c7b142146de1b44eaaabd667dfa004dd45613de227fb1a420ffddbde7429ddfcc2739dd9d446cbb"/>
+        <VersionInfo resourceName="AssignMessage.Set500ErrorVariables" version="SHA-512:599e38e2aa135ee31274e8913e05dbba2554a59b3987cc5e5e08c78c5b0a20e5091b347e60254bd02b6eb3bac2698c432266f08fbabe9da99736edb5e08cd08b"/>
+        <VersionInfo resourceName="AssignMessage.SetDefaultErrorResponse" version="SHA-512:fc09dbf2c03da8cf3af1a3814c1ef44bfc6042778f9aacb42713d8476e6dfa230bf82e404edc07851bb96d5bb6a8d2f9645d280782c0a6bb6569a263448e49c3"/>
+        <VersionInfo resourceName="JavaScriptDebugVariables" version="SHA-512:3d32a88a331d4a91daaedf94b7c44de492534a01d11c3f11b684047eae3dd0a2034d0db3346230b1f358056a99ad72367858ae8e90bd517929e88e914fcf7962"/>
+        <VersionInfo resourceName="RaiseFault.DefaultDetailedErrorResponse" version="SHA-512:ee05dbd2250869cd28e42447aabe62073eff2b4a63a716f9f459fc37eff975f732b8641ff6bcf092dd276a8687d05b6a1eafa4707ecac8a7437d8e573a7dce5d"/>
+        <VersionInfo resourceName="RaiseFault.DefaultErrorResponse" version="SHA-512:592886722916fc235598797ecbf22ab8d79300c5717a600e95723321ddbd35df49f8d99027b341592ef95929da12ea8bf08cf565995eb84eef6893983d7f5f7c"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources>
+        <VersionInfo resourceName="jsc://JavaScript.DebugVariables.js" version="SHA-512:31d8a8ddd697c08dd611b968d01385e09d6d2d54a069010e939f44dfa67b4225d6c9235c29c83ff03fe961042dd0ec71fa1b18abc351ac2f6bd3a8f3f7d5f9cc"/>
+    </Resources>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:84e5e6309ed07a974188bc2d1614179e16b71af37dae493ef3897b39900ad9507dbb3f45a4f78abce7ca321e18c3d62342c9fa08ae1d0005fe50f6341258a644"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="sharederrorflows-template-proxy-v1">
+    <Basepaths>/put_proxy_path_here</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1616356141026</CreatedAt>
+    <CreatedBy>snoyon@hotmail.com</CreatedBy>
+    <Description>Proxy template with best practices built in.  Copy and customize.  </Description>
+    <DisplayName>template-proxy-v1</DisplayName>
+    <LastModifiedAt>1616356141026</LastModifiedAt>
+    <LastModifiedBy>snoyon@hotmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:f2f0a825f445ae76fcc2744294bd8dc324eaea53a27f6e140921607ea9a70d9aa46480bad563ba046a2da1c4d8618da7bee3c83f7ea73f5025416b0599d9f963</ManifestVersion>
+    <Policies>
+        <Policy>AssignMessage.Set404ErrorVariables</Policy>
+        <Policy>AssignMessage.SetGetResourceTargetPath</Policy>
+        <Policy>AssignMessage.SetPostResourceTargetPath</Policy>
+        <Policy>ExtractVariables.CommonRequestHeaders</Policy>
+        <Policy>ExtractVariables.ExtractCustomAnalyticVariables</Policy>
+        <Policy>FlowCalloutFaultRulesHandling</Policy>
+        <Policy>Javascript.DisplayTraceRequestVariables</Policy>
+        <Policy>Javascript.DisplayTraceResponseVariables</Policy>
+        <Policy>Javascript.SetTargetUrl</Policy>
+        <Policy>Javascript.ValidateRequestParameters</Policy>
+        <Policy>KeyValueMap.GetConfigSettings</Policy>
+        <Policy>OAuthV2.VerifyAccessToken</Policy>
+        <Policy>Quota.EnforceQuota</Policy>
+        <Policy>RaiseFault.RaiseEmptyFault</Policy>
+        <Policy>SpikeArrest.SpikeArrest</Policy>
+        <Policy>Stats.RecordCustomAnalytics</Policy>
+        <Policy>ThreatProtection.JSONThreatProtection</Policy>
+        <Policy>VerifyAPIKey.VerifyAPIKey</Policy>
+        <Policy>XMLToJSON.ConvertSoapResponseToJson</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://Javascript.DisplayTraceRequestVariables.js</Resource>
+        <Resource>jsc://Javascript.DisplayTraceResponseVariables.js</Resource>
+        <Resource>jsc://Javascript.SetTargetUrl.js</Resource>
+        <Resource>jsc://Javascript.ValidateRequestParameters.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
