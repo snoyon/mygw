@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <APIProxy revision="2" name="sharederrorflows-template-proxy-v1">
-    <Basepaths>/put_proxy_path_here</Basepaths>
+    <Basepaths>/my_proxy_here</Basepaths>
     <ConfigurationVersion majorVersion="4" minorVersion="0"/>
     <CreatedAt>1616356141026</CreatedAt>
     <CreatedBy>snoyon@hotmail.com</CreatedBy>
